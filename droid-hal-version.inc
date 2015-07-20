@@ -50,8 +50,8 @@ BuildRequires: droid-hal-kernel-modules
 %endif
 
 # Audio
-BuildRequires: pulseaudio-modules-droid
-BuildRequires: droid-config-pulseaudio-settings
+#BuildRequires: pulseaudio-modules-droid
+#BuildRequires: droid-config-pulseaudio-settings
 
 # Camera
 %if 0%{?have_camera:1}
